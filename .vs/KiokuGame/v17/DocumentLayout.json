@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\0219pm\\KiokuGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|C:\\Users\\0219pm\\KiokuGame\\assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|C:\\Users\\0219pm\\KiokuGame\\assets\\scripts\\gamestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamestart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|C:\\Users\\0219pm\\KiokuGame\\assets\\scripts\\opplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\opplayercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|c:\\users\\0219pm\\kiokugame\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|C:\\Users\\0219pm\\KiokuGame\\assets\\scripts\\opgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\opgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|C:\\Users\\0219pm\\KiokuGame\\assets\\scripts\\firecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|C:\\Users\\0219pm\\KiokuGame\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|C:\\Users\\0219pm\\KiokuGame\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|C:\\Users\\0219pm\\KiokuGame\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|C:\\Users\\0219pm\\KiokuGame\\assets\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8078DE-6172-6D0F-6082-743D467321F1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameOver.cs",
+              "DocumentMoniker": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\GameOver.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GameOver.cs",
+              "ToolTip": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\GameOver.cs",
+              "RelativeToolTip": "Assets\\scripts\\GameOver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T08:55:46.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OPGame.cs",
+              "DocumentMoniker": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\OPGame.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\OPGame.cs",
+              "ToolTip": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\OPGame.cs",
+              "RelativeToolTip": "Assets\\scripts\\OPGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T08:29:10.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameStart.cs",
+              "DocumentMoniker": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\GameStart.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GameStart.cs",
+              "ToolTip": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\GameStart.cs",
+              "RelativeToolTip": "Assets\\scripts\\GameStart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T08:22:42.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OPPlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\OPPlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\OPPlayerController.cs",
+              "ToolTip": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\OPPlayerController.cs",
+              "RelativeToolTip": "Assets\\scripts\\OPPlayerController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwF0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T07:31:58.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GameController.cs",
+              "ToolTip": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\GameController.cs",
+              "RelativeToolTip": "Assets\\scripts\\GameController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvwgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T09:24:02.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemPickup.cs",
+              "DocumentMoniker": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\ItemPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ItemPickup.cs",
+              "ToolTip": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\ItemPickup.cs",
+              "RelativeToolTip": "Assets\\scripts\\ItemPickup.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:18:32.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\EnemyController.cs",
+              "ToolTip": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\scripts\\EnemyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:36:13.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FireController.cs",
+              "DocumentMoniker": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\FireController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\FireController.cs",
+              "ToolTip": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\FireController.cs",
+              "RelativeToolTip": "Assets\\scripts\\FireController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvwcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:30:06.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T08:40:37.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\CameraController.cs",
+              "ToolTip": "C:\\Users\\0219pm\\KiokuGame\\Assets\\scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\scripts\\CameraController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:53:12.304Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
