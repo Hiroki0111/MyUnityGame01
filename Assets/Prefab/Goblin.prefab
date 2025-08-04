@@ -178,7 +178,10 @@ MonoBehaviour:
   moveSpeed: 3
   dropItems:
   - {fileID: 5843076242713598045, guid: d8a17a29f4ee55244a64ef28b5da320a, type: 3}
-  - {fileID: 3513922525124154551, guid: 98f15c4c392c629449ea1884a164a55e, type: 3}
+  - {fileID: 5679870069276431859, guid: a722b2dbbef84a14a92ff9e7e0e3253e, type: 3}
+  audioPrefab: {fileID: 961588133025794495, guid: b13ede93795834f4590b27e89c38eada,
+    type: 3}
+  player: {fileID: 3392558232720822327, guid: cfc6dd963c7e70f41a57bf647bb76e9d, type: 3}
 --- !u!95 &4708094284129281291
 Animator:
   serializedVersion: 7

@@ -43,6 +43,11 @@ public class FireController : MonoBehaviour
             {
                 enemy.TakeDamage();  // ダメージを与える
             }
+            EnemyController02 enemy02 = collision.GetComponent<EnemyController02>();
+            if (enemy02 != null)
+            {
+                enemy02.TakeDamage();
+            }
             Destroy(gameObject);  // 弾は消す
         }
         else if (!collision.CompareTag("Player"))

@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using Unity.VisualScripting;
+using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
@@ -10,11 +12,14 @@ public class EnemyController : MonoBehaviour
     private Rigidbody2D rb;
     private int moveDirection = -1; // ← 左向きでスタート
     private Vector3 baseScale;
+    public GameObject audioPrefab; // AudioPrefabを参照
 
+    public GameObject player;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         baseScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+
     }
 
     void Update()
@@ -29,6 +34,12 @@ public class EnemyController : MonoBehaviour
         {
             moveDirection *= -1;
         }
+        if (collision.CompareTag("Player"))
+        {
+            
+            moveDirection *= -1;
+        }
+
     }
 
     public void TakeDamage()
@@ -36,14 +47,16 @@ public class EnemyController : MonoBehaviour
         hp--;
         if (hp <= 0)
         {
+            Instantiate(audioPrefab, transform.position, transform.rotation);
             DropItem();
             Destroy(gameObject);
+
         }
     }
 
     private void DropItem()
     {
-        
+
         if (dropItems.Length == 0) return;
 
         int index = Random.Range(0, dropItems.Length);

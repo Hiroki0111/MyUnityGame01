@@ -5,23 +5,35 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public PlayerController player;
-    public LifePanel lifePanel;
-    public FierPanel fierPanel;
-    public CoverObj coverObj;
+    public PlayerController player;     // プレイヤー制御スクリプト
+    public LifePanel lifePanel;         // ライフUI
+    public FierPanel fierPanel;         // 弾UI
+    public CoverObj coverObj;           // 画面フェード制御
 
-    private void Start()
+    void Start()
     {
-        coverObj.FadeAlpha(0f); // ゲーム開始時にカバーを非表示にする
+        coverObj.FadeAlpha(0f); // ゲーム開始時にフェードアウト（透明）
 
-        Invoke(nameof(ShowCover), 5f); // 5秒後にカバーを表示（演出用）
+        // 現在のステージ名を保存（後で使う）
         PlayerPrefs.SetString("CurrentStage", SceneManager.GetActiveScene().name);
-    PlayerPrefs.Save();
+        PlayerPrefs.Save();
+
+        // プレイヤーを動けない状態にしておく（演出中）
+        player.canMove = false;
+
+        // 画面演出として5秒後にカバー表示（フェードイン）
+        Invoke(nameof(ShowCover), 5f);
+    }
+
+    // ★カメラ演出後に呼ばれるように public に変更
+    public void EnablePlayerMovement()
+    {
+        player.EnableMovement(); // プレイヤーを動けるようにする
     }
 
     private void ShowCover()
     {
-        coverObj.FadeAlpha(1f); // カバーをフェードイン表示
+        coverObj.FadeAlpha(1f); // カバー画像をフェードイン表示（演出）
     }
 
     void Update()
@@ -35,48 +47,56 @@ public class GameController : MonoBehaviour
         {
             enabled = false;
 
-            // 今のシーン名を保存（後でリトライ用に使う）
+            // 今のシーン名を保存（リトライ用）
             string currentScene = SceneManager.GetActiveScene().name;
             PlayerPrefs.SetString("LastSceneBeforeGameOver", currentScene);
             PlayerPrefs.Save();
 
-            Invoke("GameOver", 2.0f);
+            Invoke("GameOver", 3.5f); // ゲームオーバー画面へ
         }
 
         // 鍵＆宝箱をゲットしていたらクリア
         if (player.Key() == 1 && player.TakaraBox() == 1)
         {
             enabled = false;
-            Invoke("GameClear", 2.0f);
+            Invoke("GameClear", 1f);
         }
     }
 
     void GameOver()
     {
-         PlayerPrefs.SetString("LastPlayedStage", SceneManager.GetActiveScene().name);
-    PlayerPrefs.Save();
-    SceneManager.LoadScene("GameOver"); // ゲームオーバー画面へ
+        PlayerPrefs.SetString("LastPlayedStage", SceneManager.GetActiveScene().name);
+        PlayerPrefs.Save();
+        
+        GameObject.FindFirstObjectByType<CameraController>()?.SendMessage("blackout");
     }
 
     public void TriggerGameClear()
-{
-    enabled = false;
+    {
+        Debug.Log("トリガーclearが呼ばれた");
+        Invoke("GameClear", 1.5f);
 
-    int randomImageIndex = Random.Range(0, 21);
-    PlayerPrefs.SetInt("ClearImage" + GetCurrentStageIndex(), randomImageIndex);
-    PlayerPrefs.Save();
+    }
+    public void GameClear()
+    {
+        Debug.Log("Gameclearが呼ばれた");
 
-    SceneManager.LoadScene("GameClear");
-}
+        enabled = false;
 
-// ステージ名から「1」「2」「3」などのインデックスを取得（例：1-2 → 2）
-int GetCurrentStageIndex()
-{
-    string name = SceneManager.GetActiveScene().name;
-    if (name.Contains("1-1")) return 1;
-    if (name.Contains("1-2")) return 2;
-    if (name.Contains("1-3")) return 3;
-    return 0;
-}
+        int randomImageIndex = Random.Range(0, 21);
+        PlayerPrefs.SetInt("ClearImage" + GetCurrentStageIndex(), randomImageIndex);
+        PlayerPrefs.Save();
 
+        SceneManager.LoadScene("GameClear");
+    }
+
+    // ステージ名からインデックス番号を取得（例：1-2 → 2）
+    int GetCurrentStageIndex()
+    {
+        string name = SceneManager.GetActiveScene().name;
+        if (name.Contains("1-1")) return 1;
+        if (name.Contains("1-2")) return 2;
+        if (name.Contains("1-3")) return 3;
+        return 0;
+    }
 }

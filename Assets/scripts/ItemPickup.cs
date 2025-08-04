@@ -7,6 +7,7 @@ public class ItemPickup : MonoBehaviour
     public enum ItemType { Potion, FireKaihuku, Key, TakaraBox }
 
     public ItemType itemType;
+    public GameObject audioPrefab; // AudioPrefabを参照
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -16,23 +17,24 @@ public class ItemPickup : MonoBehaviour
             switch (itemType)
             {
                 case ItemType.Potion:
+                    Instantiate(audioPrefab, transform.position, transform.rotation); // 効果音Prefabを生成
                     player?.HpKaihuku();
                     break;
 
                 case ItemType.FireKaihuku:
+                    Instantiate(audioPrefab, transform.position, transform.rotation); // 効果音Prefabを生成
                     player?.FierKaihuku();
                     break;
 
                 case ItemType.Key:
-                    // 鍵を増やす
-                    Debug.Log("カギを取得した");
+                    Instantiate(audioPrefab, transform.position, transform.rotation); // 効果音Prefabを生成
                     break;
 
                 case ItemType.TakaraBox:
                     // 鍵を持っていないと開けられない
                     if (player != null && player.Key() > 0)
                     {
-                        Debug.Log("宝箱を開けた！");
+                        Instantiate(audioPrefab, transform.position, transform.rotation); // 効果音Prefabを生成
                         // プレイヤーの鍵を1つ減らす（必要ならPlayerControllerに KeyUse() を追加）
                         typeof(PlayerController).GetMethod("UseKey", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance)
                             ?.Invoke(player, null);

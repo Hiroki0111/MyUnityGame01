@@ -9,6 +9,9 @@ TagManager:
   - TakaraBox
   - Key
   - Fire
+  - Potion
+  - FireKaihuku
+  - Tenshi
   layers:
   - Default
   - TransparentFX

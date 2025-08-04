@@ -4861,7 +4861,7 @@ Transform:
   m_Children:
   - {fileID: 6453333200250609674}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3149767141827969335
 SpriteRenderer:
@@ -4975,3 +4975,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemType: 3
+  audioPrefab: {fileID: 785025663088145118, guid: d5f70304bce8baa489c38d61c15a3214,
+    type: 3}
